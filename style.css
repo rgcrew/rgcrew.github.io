@@ -1,12 +1,14 @@
+body {
+  background-color: #263238;
+}
 .centext {
   text-align: center;
 }
-body {
-  background: url("dark_dotted2.png");
+h2 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
 }
-#header {
-  padding: 5%;
-}
-#navbar {
-  padding: 1%;
+h5 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: lighter;
 }
