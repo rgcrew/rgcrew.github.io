@@ -1,3 +1,12 @@
 .centext {
   text-align: center;
 }
+body {
+  background: url("dark_dotted2.png");
+}
+#header {
+  padding: 5%;
+}
+#navbar {
+  padding: 1%;
+}
