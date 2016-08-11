@@ -36681,7 +36681,7 @@ cr.getProjectModel = function() { return [
 			false,
 			9214903454308015,
 			[
-				["images/door-sheet0.png", 6119, 71, 1, 33, 66, 1, 0, 0.5,[],[0.03030303120613098,-0.4848484992980957,0.9696969985961914,-0.4848484992980957,0.9696969985961914,0.4848484992980957,0.03030303120613098,0.4848484992980957],0]
+				["images/door-sheet0.png", 6119, 71, 1, 33, 66, 1, 0, 0.5,[],[0.03030299954116345,-0.4848484992980957,0.9696969985961914,-0.4848484992980957,0.9696969985961914,0.4848480224609375,0.03030299954116345,0.4848480224609375],0]
 			]
 			]
 ,			[
@@ -36693,7 +36693,7 @@ cr.getProjectModel = function() { return [
 			false,
 			6883678036329412,
 			[
-				["images/door-sheet1.png", 1386, 1, 1, 33, 66, 1, 0, 0.5,[],[0.03030303120613098,-0.4848484992980957,0.9696969985961914,-0.4848484992980957,0.9696969985961914,0.4848484992980957,0.03030303120613098,0.4848484992980957],0]
+				["images/door-sheet1.png", 1386, 1, 1, 33, 66, 1, 0, 0.5,[],[0.03030299954116345,-0.4848484992980957,0.9696969985961914,-0.4848484992980957,0.9696969985961914,0.4848480224609375,0.03030299954116345,0.4848480224609375],0]
 			]
 			]
 ,			[
@@ -37171,7 +37171,7 @@ cr.getProjectModel = function() { return [
 			false,
 			4366438307489038,
 			[
-				["images/screamer-sheet0.png", 4303, 1, 1, 180, 104, 1, 0.5, 0.5,[],[],0]
+				["images/screamer-sheet0.png", 74755, 1, 112, 180, 104, 1, 0.5, 0.5,[],[],0]
 			]
 			]
 ,			[
@@ -37183,7 +37183,7 @@ cr.getProjectModel = function() { return [
 			false,
 			8761397739750306,
 			[
-				["images/screamer-sheet0.png", 4303, 1, 107, 180, 104, 1, 0.5, 0.5,[],[],0]
+				["images/screamer-sheet0.png", 74755, 183, 112, 180, 104, 1, 0.5, 0.5,[],[],0]
 			]
 			]
 ,			[
@@ -37195,7 +37195,7 @@ cr.getProjectModel = function() { return [
 			false,
 			3750790655732679,
 			[
-				["images/screamer-sheet1.png", 23717, 1, 1, 180, 104, 1, 0.5, 0.5,[],[],0]
+				["images/screamer-sheet0.png", 74755, 1, 218, 180, 104, 1, 0.5, 0.5,[],[],0]
 			]
 			]
 ,			[
@@ -37207,7 +37207,7 @@ cr.getProjectModel = function() { return [
 			false,
 			6745792763831747,
 			[
-				["images/screamer-sheet1.png", 23717, 1, 107, 180, 104, 1, 0.5, 0.5,[],[],0]
+				["images/screamer-sheet0.png", 74755, 183, 218, 180, 104, 1, 0.5, 0.5,[],[],0]
 			]
 			]
 ,			[
@@ -37219,7 +37219,31 @@ cr.getProjectModel = function() { return [
 			false,
 			3560442328402666,
 			[
-				["images/screamer-sheet2.png", 9455, 0, 0, 180, 104, 1, 0.5, 0.5,[],[],1]
+				["images/screamer-sheet0.png", 74755, 1, 324, 180, 104, 1, 0.5, 0.5,[],[],0]
+			]
+			]
+,			[
+			"S1",
+			5,
+			false,
+			1,
+			0,
+			false,
+			8765039663536267,
+			[
+				["images/screamer-sheet0.png", 74755, 1, 1, 180, 109, 1, 0.5, 0.5045871734619141,[],[],0]
+			]
+			]
+,			[
+			"S1S",
+			5,
+			false,
+			1,
+			0,
+			false,
+			4688826712792115,
+			[
+				["images/screamer-sheet0.png", 74755, 183, 1, 180, 109, 1, 0.5, 0.5045871734619141,[],[],0]
 			]
 			]
 		],
@@ -39783,6 +39807,53 @@ cr.getProjectModel = function() { return [
 		false,
 		false,
 		6116229684560323,
+		[],
+		null
+	]
+,	[
+		"t123",
+		cr.plugins_.Sprite,
+		false,
+		[],
+		1,
+		0,
+		null,
+		[
+			[
+			"S1",
+			5,
+			false,
+			1,
+			0,
+			false,
+			4107029328667432,
+			[
+				["images/screamer-sheet0.png", 74755, 1, 1, 180, 109, 1, 0.5, 0.5045871734619141,[],[],0]
+			]
+			]
+,			[
+			"S1S",
+			5,
+			false,
+			1,
+			0,
+			false,
+			3181157601747108,
+			[
+				["images/screamer-sheet0.png", 74755, 183, 1, 180, 109, 1, 0.5, 0.5045871734619141,[],[],0]
+			]
+			]
+		],
+		[
+		[
+			"ScrollTo",
+			cr.behaviors.scrollto,
+			6890941533264057
+		]
+		],
+		false,
+		false,
+		5384261765902937,
 		[],
 		null
 	]
@@ -47140,6 +47211,24 @@ cr.getProjectModel = function() { return [
 					1
 				]
 			]
+,			[
+				[160.7636108398438, 93.97648620605469, 0, 336, 192, 0, 0, 0.5, 0.5, 0.5045871734619141, 0, 0, []],
+				123,
+				397,
+				[
+				],
+				[
+				[
+					0
+				]
+				],
+				[
+					1,
+					"Default",
+					0,
+					1
+				]
+			]
 			],
 			[			]
 		]
@@ -49966,102 +50055,6 @@ false,false,1610212477730856,false
 				]
 				]
 			]
-,			[
-				0,
-				null,
-				false,
-				null,
-				737186678642952,
-				[
-				[
-					2,
-					cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
-					null,
-					0,
-					false,
-					false,
-					false,
-					1335168149602525,
-					false
-					,[
-					[
-						9,
-						16
-					]
-					]
-				]
-				],
-				[
-				[
-					13,
-					cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
-					null,
-					1920640709850764,
-					false
-					,[
-					[
-						10,
-						0
-					]
-,					[
-						7,
-						[
-							0,
-							1
-						]
-					]
-					]
-				]
-				]
-			]
-,			[
-				0,
-				null,
-				false,
-				null,
-				1021937911383156,
-				[
-				[
-					2,
-					cr.plugins_.Keyboard.prototype.cnds.OnKeyReleased,
-					null,
-					1,
-					false,
-					false,
-					false,
-					2923454544908934,
-					false
-					,[
-					[
-						9,
-						16
-					]
-					]
-				]
-				],
-				[
-				[
-					13,
-					cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
-					null,
-					6020628197806906,
-					false
-					,[
-					[
-						10,
-						0
-					]
-,					[
-						7,
-						[
-							0,
-							0
-						]
-					]
-					]
-				]
-				]
-			]
 			]
 		]
 ,		[
@@ -51081,102 +51074,6 @@ false,false,1610212477730856,false
 				null,
 				false,
 				null,
-				9276239703722334,
-				[
-				[
-					2,
-					cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
-					null,
-					0,
-					false,
-					false,
-					false,
-					1421856463072273,
-					false
-					,[
-					[
-						9,
-						16
-					]
-					]
-				]
-				],
-				[
-				[
-					13,
-					cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
-					null,
-					3485869312826014,
-					false
-					,[
-					[
-						10,
-						0
-					]
-,					[
-						7,
-						[
-							0,
-							1
-						]
-					]
-					]
-				]
-				]
-			]
-,			[
-				0,
-				null,
-				false,
-				null,
-				9513568444246522,
-				[
-				[
-					2,
-					cr.plugins_.Keyboard.prototype.cnds.OnKeyReleased,
-					null,
-					1,
-					false,
-					false,
-					false,
-					4205961795005698,
-					false
-					,[
-					[
-						9,
-						16
-					]
-					]
-				]
-				],
-				[
-				[
-					13,
-					cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
-					null,
-					4444950502749936,
-					false
-					,[
-					[
-						10,
-						0
-					]
-,					[
-						7,
-						[
-							0,
-							0
-						]
-					]
-					]
-				]
-				]
-			]
-,			[
-				0,
-				null,
-				false,
-				null,
 				5895703887265576,
 				[
 				[
@@ -52173,7 +52070,7 @@ false,false,1610212477730856,false
 						,[
 						[
 							4,
-							36
+							37
 						]
 ,						[
 							5,
@@ -52186,7 +52083,7 @@ false,false,1610212477730856,false
 							0,
 							[
 								0,
-								212
+								1304
 							]
 						]
 ,						[
@@ -53284,6 +53181,26 @@ false,false,1610212477730856,false
 					],
 					[
 					[
+						13,
+						cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
+						null,
+						7333898098928844,
+						false
+						,[
+						[
+							10,
+							0
+						]
+,						[
+							7,
+							[
+								0,
+								0
+							]
+						]
+						]
+					]
+,					[
 						37,
 						cr.plugins_.Sprite.prototype.acts.Destroy,
 						null,
@@ -55701,6 +55618,26 @@ false,false,1610212477730856,false
 						[
 							3,
 							0
+						]
+						]
+					]
+,					[
+						13,
+						cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
+						null,
+						61441361178803,
+						false
+						,[
+						[
+							10,
+							0
+						]
+,						[
+							7,
+							[
+								0,
+								1
+							]
 						]
 						]
 					]
@@ -59651,7 +59588,7 @@ false,false,1610212477730856,false
 							7,
 							[
 								2,
-								"Treść maila: jestem tutaj"
+								"Treść maila: 'JESTEM TUTAJ'"
 							]
 						]
 						]
@@ -59754,7 +59691,7 @@ false,false,1610212477730856,false
 							7,
 							[
 								2,
-								"behind you"
+								"za tobą"
 							]
 						]
 						]
@@ -60044,7 +59981,7 @@ false,false,1610212477730856,false
 								1,
 								[
 									2,
-									""
+									"whisp"
 								]
 							]
 							]
@@ -60075,7 +60012,7 @@ false,false,1610212477730856,false
 								1,
 								[
 									2,
-									"whisper"
+									"whisp"
 								]
 							]
 							]
@@ -60272,8 +60209,80 @@ false,false,1610212477730856,false
 								1,
 								[
 									2,
-									"whisper"
+									"whisp"
 								]
+							]
+							]
+						]
+,						[
+							-1,
+							cr.system_object.prototype.acts.Wait,
+							null,
+							2346967188413509,
+							false
+							,[
+							[
+								0,
+								[
+									0,
+									2
+								]
+							]
+							]
+						]
+,						[
+							4,
+							cr.plugins_.Audio.prototype.acts.Stop,
+							null,
+							3123463330797731,
+							false
+							,[
+							[
+								1,
+								[
+									2,
+									"whisp"
+								]
+							]
+							]
+						]
+,						[
+							123,
+							cr.behaviors.scrollto.prototype.acts.SetEnabled,
+							"ScrollTo",
+							1241897734999089,
+							false
+							,[
+							[
+								3,
+								1
+							]
+							]
+						]
+,						[
+							123,
+							cr.behaviors.scrollto.prototype.acts.Shake,
+							"ScrollTo",
+							504177109553649,
+							false
+							,[
+							[
+								0,
+								[
+									0,
+									1
+								]
+							]
+,							[
+								0,
+								[
+									0,
+									10
+								]
+							]
+,							[
+								3,
+								0
 							]
 							]
 						]
@@ -60281,16 +60290,73 @@ false,false,1610212477730856,false
 							4,
 							cr.plugins_.Audio.prototype.acts.Play,
 							null,
-							494313835564379,
+							6438540167761407,
 							false
 							,[
 							[
 								2,
-								["ton boom'",false]
+								["ambient_tone5",false]
 							]
 ,							[
 								3,
+								0
+							]
+,							[
+								0,
+								[
+									0,
+									0
+								]
+							]
+,							[
+								1,
+								[
+									2,
+									""
+								]
+							]
+							]
+						]
+,						[
+							80,
+							cr.plugins_.Sprite.prototype.acts.SetVisible,
+							null,
+							8396922849700847,
+							false
+							,[
+							[
+								3,
 								1
+							]
+							]
+						]
+,						[
+							123,
+							cr.plugins_.Sprite.prototype.acts.SetVisible,
+							null,
+							92828222594718,
+							false
+							,[
+							[
+								3,
+								1
+							]
+							]
+						]
+,						[
+							4,
+							cr.plugins_.Audio.prototype.acts.Play,
+							null,
+							7435357233128819,
+							false
+							,[
+							[
+								2,
+								["whisper2",false]
+							]
+,							[
+								3,
+								0
 							]
 ,							[
 								0,
@@ -60312,15 +60378,137 @@ false,false,1610212477730856,false
 							-1,
 							cr.system_object.prototype.acts.Wait,
 							null,
-							2346967188413509,
+							4513186624687892,
 							false
 							,[
 							[
 								0,
 								[
 									0,
-									2
+									10
 								]
+							]
+							]
+						]
+,						[
+							4,
+							cr.plugins_.Audio.prototype.acts.Play,
+							null,
+							475193352847362,
+							false
+							,[
+							[
+								2,
+								["screamer!",false]
+							]
+,							[
+								3,
+								0
+							]
+,							[
+								0,
+								[
+									0,
+									0
+								]
+							]
+,							[
+								1,
+								[
+									2,
+									"s"
+								]
+							]
+							]
+						]
+,						[
+							123,
+							cr.plugins_.Sprite.prototype.acts.SetAnim,
+							null,
+							7996690205928515,
+							false
+							,[
+							[
+								1,
+								[
+									2,
+									"s1s"
+								]
+							]
+,							[
+								3,
+								1
+							]
+							]
+						]
+,						[
+							-1,
+							cr.system_object.prototype.acts.Wait,
+							null,
+							3637761637107209,
+							false
+							,[
+							[
+								0,
+								[
+									1,
+									0.5
+								]
+							]
+							]
+						]
+,						[
+							4,
+							cr.plugins_.Audio.prototype.acts.Stop,
+							null,
+							3064220231333992,
+							false
+							,[
+							[
+								1,
+								[
+									2,
+									"s"
+								]
+							]
+							]
+						]
+,						[
+							123,
+							cr.behaviors.scrollto.prototype.acts.SetEnabled,
+							"ScrollTo",
+							2371577558271242,
+							false
+							,[
+							[
+								3,
+								0
+							]
+							]
+						]
+,						[
+							80,
+							cr.plugins_.Sprite.prototype.acts.SetVisible,
+							null,
+							2725276802750083,
+							false
+							,[
+							[
+								3,
+								0
+							]
+							]
+						]
+,						[
+							123,
+							cr.plugins_.Sprite.prototype.acts.SetVisible,
+							null,
+							9116223985117663,
+							false
+							,[
+							[
+								3,
+								0
 							]
 							]
 						]
@@ -60377,93 +60565,6 @@ false,false,1610212477730856,false
 								]
 							]
 							]
-						]
-,						[
-							-1,
-							cr.system_object.prototype.acts.Wait,
-							null,
-							5474217173358057,
-							false
-							,[
-							[
-								0,
-								[
-									0,
-									2
-								]
-							]
-							]
-						]
-,						[
-							4,
-							cr.plugins_.Audio.prototype.acts.Play,
-							null,
-							7243342281523899,
-							false
-							,[
-							[
-								2,
-								["ambient_scream1",false]
-							]
-,							[
-								3,
-								0
-							]
-,							[
-								0,
-								[
-									0,
-									0
-								]
-							]
-,							[
-								1,
-								[
-									2,
-									""
-								]
-							]
-							]
-						]
-,						[
-							43,
-							cr.plugins_.Sprite.prototype.acts.SetVisible,
-							null,
-							8346192918297805,
-							false
-							,[
-							[
-								3,
-								1
-							]
-							]
-						]
-,						[
-							43,
-							cr.plugins_.Sprite.prototype.acts.SetAnim,
-							null,
-							9908297681352592,
-							false
-							,[
-							[
-								1,
-								[
-									2,
-									"ded1"
-								]
-							]
-,							[
-								3,
-								1
-							]
-							]
-						]
-,						[
-							43,
-							cr.behaviors.Fade.prototype.acts.RestartFade,
-							"Fade",
-							3130832992414773,
-							false
 						]
 ,						[
 							13,
@@ -64831,6 +64932,17 @@ false,false,1610212477730856,false
 					]
 					]
 				]
+,				[
+					60,
+					cr.plugins_.Sprite.prototype.cnds.IsVisible,
+					null,
+					0,
+					false,
+					false,
+					false,
+					9722656476912648,
+					false
+				]
 				],
 				[
 				[
@@ -65688,7 +65800,7 @@ false,false,1610212477730856,false
 						7,
 						[
 							2,
-							"Komoda pełna kurzu... Od dawna nikt tu nie sprzątał."
+							"Stara komoda, nic więcej."
 						]
 					]
 					]
@@ -66568,7 +66680,8 @@ false,false,1610212477730856,false
 		["ambient_scream1.ogg", 34803],
 		["ambient_tone4.ogg", 51368],
 		["ambient_tone5.ogg", 50995],
-		["door_closed.ogg", 7411]
+		["door_closed.ogg", 7411],
+		["screamer!.ogg", 17580]
 	],
 	"media/",
 	true,
@@ -66583,7 +66696,7 @@ false,false,1610212477730856,false
 	false,
 	0,
 	0,
-	396,
+	398,
 	false,
 	false,
 	1,

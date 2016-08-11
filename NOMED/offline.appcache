@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1470851951
+#1470939592
 index.html
 c2runtime.js
 jquery-2.0.0.min.js
@@ -44,8 +44,6 @@ images/9_sleep-sheet0.png
 images/dark.png
 images/blood1-sheet0.png
 images/screamer-sheet0.png
-images/screamer-sheet1.png
-images/screamer-sheet2.png
 images/szafka-sheet0.png
 images/obraz4-sheet0.png
 images/lampa_dluga-sheet0.png
@@ -174,6 +172,7 @@ media/ambient_scream1.ogg
 media/ambient_tone4.ogg
 media/ambient_tone5.ogg
 media/door_closed.ogg
+media/screamer!.ogg
 icon-16.png
 icon-32.png
 icon-114.png
