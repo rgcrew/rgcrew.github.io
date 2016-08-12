@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1470945328
+#1471023308
 index.html
 c2runtime.js
 jquery-2.0.0.min.js
@@ -85,7 +85,7 @@ images/deski_back.png
 images/szafa2-sheet0.png
 images/wazon-sheet0.png
 images/szafka2-sheet0.png
-images/obraz_zyd-sheet0.png
+images/obraz_grubas-sheet0.png
 images/wanna_krew-sheet0.png
 images/sedes-sheet0.png
 images/wiadro-sheet0.png
@@ -101,6 +101,7 @@ images/lustro_dol-sheet0.png
 images/okno2-sheet0.png
 images/grubas-sheet0.png
 images/tv-sheet0.png
+images/tv-sheet1.png
 images/szafka4-sheet0.png
 images/hank-sheet0.png
 images/trash1-sheet0.png
@@ -111,7 +112,10 @@ images/krzeslo-sheet0.png
 images/trash4-sheet0.png
 images/lazienka_back-sheet0.png
 images/stolik-sheet0.png
+images/wizja-sheet0.png
 images/szafka5-sheet0.png
+images/tv_screen1-sheet0.png
+images/tv_screen1-sheet1.png
 media/ton%20boom'.ogg
 media/whisper.ogg
 media/menu.ogg
@@ -174,6 +178,10 @@ media/ambient_tone4.ogg
 media/ambient_tone5.ogg
 media/door_closed.ogg
 media/screamer!.ogg
+media/ice%20cream.ogg
+media/tv_noise.ogg
+media/choke.ogg
+media/hahaha.ogg
 icon-16.png
 icon-32.png
 icon-114.png

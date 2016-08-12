@@ -36681,7 +36681,7 @@ cr.getProjectModel = function() { return [
 			false,
 			9214903454308015,
 			[
-				["images/door-sheet0.png", 6063, 71, 1, 33, 66, 1, 0, 0.5,[],[0.03030303120613098,-0.4848484992980957,0.9696969985961914,-0.4848484992980957,0.9696969985961914,0.4848484992980957,0.03030303120613098,0.4848484992980957],0]
+				["images/door-sheet0.png", 6063, 71, 1, 33, 66, 1, 0, 0.5,[],[0.03030299954116345,-0.4848484992980957,0.9696969985961914,-0.4848484992980957,0.9696969985961914,0.4848480224609375,0.03030299954116345,0.4848480224609375],0]
 			]
 			]
 ,			[
@@ -39010,7 +39010,7 @@ cr.getProjectModel = function() { return [
 			false,
 			3063556057893665,
 			[
-				["images/obraz_zyd-sheet0.png", 1901, 0, 0, 32, 32, 1, 0.5, 0.5,[],[],0]
+				["images/obraz_grubas-sheet0.png", 2589, 0, 0, 32, 32, 1, 0.5, 0.5,[],[],1]
 			]
 			]
 		],
@@ -39425,24 +39425,43 @@ cr.getProjectModel = function() { return [
 		cr.plugins_.Sprite,
 		false,
 		[],
-		0,
+		1,
 		0,
 		null,
 		[
 			[
 			"Default",
 			5,
-			false,
+			true,
 			1,
 			0,
 			false,
 			3126885626039565,
 			[
-				["images/grubas-sheet0.png", 330, 0, 0, 33, 15, 1, 0.5151515007019043, 0.5333333611488342,[],[],0]
+				["images/grubas-sheet0.png", 399, 1, 1, 33, 15, 1, 0.5151515007019043, 0.5333333611488342,[],[],0],
+				["images/grubas-sheet0.png", 399, 1, 18, 33, 15, 1, 0.5151515007019043, 0.5333333611488342,[],[],0]
+			]
+			]
+,			[
+			"joke",
+			5,
+			true,
+			1,
+			0,
+			false,
+			2815301506301195,
+			[
+				["images/grubas-sheet0.png", 399, 1, 1, 33, 15, 1, 0.5151515007019043, 0.5333333611488342,[],[],0],
+				["images/grubas-sheet0.png", 399, 1, 35, 33, 15, 1, 0.5151515007019043, 0.5333333611488342,[],[],0]
 			]
 			]
 		],
 		[
+		[
+			"ScrollTo",
+			cr.behaviors.scrollto,
+			8716427240346833
+		]
 		],
 		false,
 		false,
@@ -39469,6 +39488,18 @@ cr.getProjectModel = function() { return [
 			8034160543297108,
 			[
 				["images/tv-sheet0.png", 1805, 0, 0, 64, 64, 1, 0.5, 0.5,[],[],0]
+			]
+			]
+,			[
+			"ON",
+			5,
+			false,
+			1,
+			0,
+			false,
+			1159512166054424,
+			[
+				["images/tv-sheet1.png", 1814, 0, 0, 64, 64, 1, 0.5, 0.5,[],[],0]
 			]
 			]
 		],
@@ -39843,6 +39874,18 @@ cr.getProjectModel = function() { return [
 				["images/screamer-sheet0.png", 74755, 183, 1, 180, 109, 1, 0.5, 0.5045871734619141,[],[],0]
 			]
 			]
+,			[
+			"END",
+			5,
+			false,
+			1,
+			0,
+			false,
+			5981839574405892,
+			[
+				["images/wizja-sheet0.png", 31576, 0, 0, 180, 109, 1, 0.5, 0.5045871734619141,[],[],0]
+			]
+			]
 		],
 		[
 		[
@@ -39875,7 +39918,7 @@ cr.getProjectModel = function() { return [
 			false,
 			1815903301739311,
 			[
-				["images/szafka5-sheet0.png", 1042, 0, 0, 16, 19, 1, 1, 0.5263158082962036,[],[-1,-0.5263158082962036,0,-0.5263158082962036,0,-0.4736841917037964,0,-0.05263179540634155,0,0.3684212565422058,0,0.4736841917037964,-0.9375,0.4210522174835205,-1,-0.05263179540634155],0]
+				["images/szafka5-sheet0.png", 1042, 0, 0, 16, 19, 1, 1, 0.5263158082962036,[],[-1,-0.5263158082962036,0,-0.5263158082962036,0,-0.4736841917037964,0,-0.05263179540634155,0,0.368421196937561,0,0.4736841917037964,-0.9375,0.4210522174835205,-1,-0.05263179540634155],0]
 			]
 			]
 		],
@@ -39884,6 +39927,175 @@ cr.getProjectModel = function() { return [
 		false,
 		false,
 		1621579971352918,
+		[],
+		null
+	]
+,	[
+		"t125",
+		cr.plugins_.Sprite,
+		false,
+		[8404392123089864],
+		0,
+		0,
+		null,
+		[
+			[
+			"Default",
+			5,
+			false,
+			1,
+			0,
+			false,
+			8754125086367844,
+			[
+				["images/light_room-sheet0.png", 6143, 0, 0, 128, 87, 1, 0.5, 0.5057471394538879,[],[-0.3125,-0.3189651370048523,0.2792969942092896,-0.3103451430797577,0.28125,0.33620685338974,-0.3261719942092896,0.3304598331451416],0]
+			]
+			]
+		],
+		[
+		],
+		false,
+		false,
+		9898300844023503,
+		[],
+		null
+	]
+,	[
+		"t126",
+		cr.plugins_.Sprite,
+		false,
+		[],
+		1,
+		0,
+		null,
+		[
+			[
+			"szum",
+			50,
+			true,
+			1,
+			0,
+			false,
+			2832751442656565,
+			[
+				["images/tv_screen1-sheet0.png", 14878, 1, 1, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0],
+				["images/tv_screen1-sheet0.png", 14878, 56, 1, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0]
+			]
+			]
+,			[
+			"black",
+			50,
+			true,
+			1,
+			0,
+			false,
+			2651933066449362,
+			[
+				["images/tv_screen1-sheet0.png", 14878, 1, 34, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0]
+			]
+			]
+,			[
+			"ice1",
+			50,
+			false,
+			1,
+			0,
+			false,
+			2191150259269679,
+			[
+				["images/tv_screen1-sheet0.png", 14878, 1, 1, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0],
+				["images/tv_screen1-sheet0.png", 14878, 56, 34, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0]
+			]
+			]
+,			[
+			"ice2",
+			50,
+			false,
+			1,
+			0,
+			false,
+			1053135482401294,
+			[
+				["images/tv_screen1-sheet0.png", 14878, 1, 1, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0],
+				["images/tv_screen1-sheet0.png", 14878, 1, 67, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0]
+			]
+			]
+,			[
+			"ice3",
+			50,
+			false,
+			1,
+			0,
+			false,
+			7331536390451681,
+			[
+				["images/tv_screen1-sheet0.png", 14878, 1, 1, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0],
+				["images/tv_screen1-sheet0.png", 14878, 56, 67, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0]
+			]
+			]
+,			[
+			"ice4",
+			50,
+			false,
+			1,
+			0,
+			false,
+			7945571635256486,
+			[
+				["images/tv_screen1-sheet0.png", 14878, 1, 1, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0],
+				["images/tv_screen1-sheet1.png", 9640, 1, 1, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0]
+			]
+			]
+,			[
+			"ice5",
+			50,
+			false,
+			1,
+			0,
+			false,
+			5636824952246576,
+			[
+				["images/tv_screen1-sheet0.png", 14878, 1, 1, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0],
+				["images/tv_screen1-sheet1.png", 9640, 56, 1, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0]
+			]
+			]
+,			[
+			"ice6",
+			50,
+			false,
+			1,
+			0,
+			false,
+			4406538733733288,
+			[
+				["images/tv_screen1-sheet0.png", 14878, 1, 1, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0],
+				["images/tv_screen1-sheet1.png", 9640, 1, 34, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0]
+			]
+			]
+,			[
+			"ice7",
+			50,
+			false,
+			1,
+			0,
+			false,
+			5041748106494795,
+			[
+				["images/tv_screen1-sheet0.png", 14878, 1, 1, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0],
+				["images/tv_screen1-sheet1.png", 9640, 56, 34, 53, 31, 1, 0.5094339847564697, 0.5161290168762207,[],[],0]
+			]
+			]
+		],
+		[
+		[
+			"ScrollTo",
+			cr.behaviors.scrollto,
+			8240025391676598
+		]
+		],
+		false,
+		false,
+		6698704804019119,
 		[],
 		null
 	]
@@ -44209,7 +44421,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[288, 1204, 0, 8, 8, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				[286, 1189, 0, 8, 8, 0, 0, 1, 0.5, 0.5, 0, 0, []],
 				105,
 				342,
 				[
@@ -44825,6 +45037,9 @@ cr.getProjectModel = function() { return [
 				[
 				],
 				[
+				[
+					0
+				]
 				],
 				[
 					0,
@@ -44858,6 +45073,24 @@ cr.getProjectModel = function() { return [
 				],
 				[
 					0,
+					"Default",
+					0,
+					1
+				]
+			]
+,			[
+				[788.5794677734375, 1178.78759765625, 0, 27.62091064453125, 18.7293701171875, 0, 0, 1, 0.5094339847564697, 0.5161290168762207, 0, 0, []],
+				126,
+				399,
+				[
+				],
+				[
+				[
+					0
+				]
+				],
+				[
+					1,
 					"Default",
 					0,
 					1
@@ -46418,6 +46651,22 @@ cr.getProjectModel = function() { return [
 					1
 				]
 			]
+,			[
+				[786, 1178, 0, 54.46162796020508, 37.01688766479492, 0, 0, 1, 0.5, 0.5057471394538879, 0, 0, []],
+				125,
+				396,
+				[
+					[0]
+				],
+				[
+				],
+				[
+					1,
+					"Default",
+					0,
+					1
+				]
+			]
 			],
 			[			]
 		]
@@ -47120,6 +47369,22 @@ cr.getProjectModel = function() { return [
 					1
 				]
 			]
+,			[
+				[347, 1171, 0, 40, 76, 0, 0, 1, 0.5, 0.5, 0, 0, []],
+				37,
+				398,
+				[
+					[0]
+				],
+				[
+				],
+				[
+					1,
+					"Default",
+					0,
+					1
+				]
+			]
 			],
 			[			]
 		]
@@ -47310,7 +47575,7 @@ cr.getProjectModel = function() { return [
 		],
 		[
 		],
-		[["noise", "Noise", [0.05, 0]]]
+		[]
 	]
 	],
 	[
@@ -51179,6 +51444,1614 @@ false,false,1610212477730856,false
 				null,
 				false,
 				null,
+				4121659790171321,
+				[
+				[
+					-1,
+					cr.system_object.prototype.cnds.CompareVar,
+					null,
+					0,
+					false,
+					false,
+					false,
+					1099452126554506,
+					false
+					,[
+					[
+						11,
+						"Triger"
+					]
+,					[
+						8,
+						0
+					]
+,					[
+						7,
+						[
+							0,
+							19
+						]
+					]
+					]
+				]
+				],
+				[
+				]
+				,[
+				[
+					0,
+					null,
+					false,
+					null,
+					3668785177116897,
+					[
+					[
+						13,
+						cr.plugins_.Sprite.prototype.cnds.OnCollision,
+						null,
+						0,
+						false,
+						false,
+						true,
+						1634264948222492,
+						false
+						,[
+						[
+							4,
+							37
+						]
+						]
+					]
+					],
+					[
+					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Play,
+						null,
+						2509290351991097,
+						false
+						,[
+						[
+							2,
+							["ambient_tone5",false]
+						]
+,						[
+							3,
+							0
+						]
+,						[
+							0,
+							[
+								0,
+								0
+							]
+						]
+,						[
+							1,
+							[
+								2,
+								""
+							]
+						]
+						]
+					]
+,					[
+						37,
+						cr.plugins_.Sprite.prototype.acts.Destroy,
+						null,
+						6499554858946908,
+						false
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.SetVar,
+						null,
+						8056835873062788,
+						false
+						,[
+						[
+							11,
+							"CUTSCENA"
+						]
+,						[
+							7,
+							[
+								0,
+								1
+							]
+						]
+						]
+					]
+,					[
+						13,
+						cr.behaviors.Platform.prototype.acts.SetEnabled,
+						"Platform",
+						8186769435607376,
+						false
+						,[
+						[
+							3,
+							0
+						]
+						]
+					]
+,					[
+						126,
+						cr.plugins_.Sprite.prototype.acts.SetVisible,
+						null,
+						4723607971969246,
+						false
+						,[
+						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.SetLayoutScale,
+						null,
+						8845567720749349,
+						false
+						,[
+						[
+							0,
+							[
+								1,
+								1.5
+							]
+						]
+						]
+					]
+,					[
+						126,
+						cr.behaviors.scrollto.prototype.acts.SetEnabled,
+						"ScrollTo",
+						8410719972645053,
+						false
+						,[
+						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						13,
+						cr.behaviors.scrollto.prototype.acts.SetEnabled,
+						"ScrollTo",
+						7759438615334355,
+						false
+						,[
+						[
+							3,
+							0
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Play,
+						null,
+						5520234836576256,
+						false
+						,[
+						[
+							2,
+							["tv_noise",false]
+						]
+,						[
+							3,
+							0
+						]
+,						[
+							0,
+							[
+								0,
+								0
+							]
+						]
+,						[
+							1,
+							[
+								2,
+								"noise"
+							]
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						1241891241363651,
+						false
+						,[
+						[
+							0,
+							[
+								1,
+								4.5
+							]
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Stop,
+						null,
+						9305387380485866,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"noise"
+							]
+						]
+						]
+					]
+,					[
+						126,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						9997171157249453,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"black"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						8874046590817816,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								3
+							]
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Play,
+						null,
+						6384960587855537,
+						false
+						,[
+						[
+							2,
+							["ambient_tone5",false]
+						]
+,						[
+							3,
+							0
+						]
+,						[
+							0,
+							[
+								0,
+								0
+							]
+						]
+,						[
+							1,
+							[
+								2,
+								""
+							]
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.SetLayoutScale,
+						null,
+						5221528371178752,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								2
+							]
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Play,
+						null,
+						2494743418946839,
+						false
+						,[
+						[
+							2,
+							["ice cream",false]
+						]
+,						[
+							3,
+							0
+						]
+,						[
+							0,
+							[
+								0,
+								0
+							]
+						]
+,						[
+							1,
+							[
+								2,
+								"ICE"
+							]
+						]
+						]
+					]
+,					[
+						111,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						7403303689188662,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ice1"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						8207233467618846,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								6
+							]
+						]
+						]
+					]
+,					[
+						111,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						4386862441661456,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ice2"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						6039498869256655,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								6
+							]
+						]
+						]
+					]
+,					[
+						111,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						6619590386655051,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ice3"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						9001961063867505,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								6
+							]
+						]
+						]
+					]
+,					[
+						111,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						6844081094779965,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ice4"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						8673063142175626,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								6
+							]
+						]
+						]
+					]
+,					[
+						111,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						9080984869146017,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ice5"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						4454244005315472,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								6
+							]
+						]
+						]
+					]
+,					[
+						111,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						2840788055778352,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ice6"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						5468431325229324,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								6
+							]
+						]
+						]
+					]
+,					[
+						111,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						7720445743284294,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ice7"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						7279580037095802,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								6
+							]
+						]
+						]
+					]
+,					[
+						111,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						9177608919998103,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ice3"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						359802038587594,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								6
+							]
+						]
+						]
+					]
+,					[
+						111,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						3925202095292424,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ice4"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						4818746469947271,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								6
+							]
+						]
+						]
+					]
+,					[
+						111,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						9377239986394997,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ice5"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						9362950565748869,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								6
+							]
+						]
+						]
+					]
+,					[
+						111,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						7337229581354135,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ice6"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						8545504434624083,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								3
+							]
+						]
+						]
+					]
+,					[
+						126,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						6532050299366301,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"black"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						1221490727030172,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								3
+							]
+						]
+						]
+					]
+,					[
+						126,
+						cr.behaviors.scrollto.prototype.acts.SetEnabled,
+						"ScrollTo",
+						7232773340444299,
+						false
+						,[
+						[
+							3,
+							0
+						]
+						]
+					]
+,					[
+						110,
+						cr.behaviors.scrollto.prototype.acts.SetEnabled,
+						"ScrollTo",
+						1244248392523285,
+						false
+						,[
+						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Play,
+						null,
+						5230116543748619,
+						false
+						,[
+						[
+							2,
+							["choke",false]
+						]
+,						[
+							3,
+							0
+						]
+,						[
+							0,
+							[
+								0,
+								0
+							]
+						]
+,						[
+							1,
+							[
+								2,
+								""
+							]
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						7380575102687607,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								4
+							]
+						]
+						]
+					]
+,					[
+						123,
+						cr.plugins_.Sprite.prototype.acts.SetVisible,
+						null,
+						4755312049602445,
+						false
+						,[
+						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						3305081745151977,
+						false
+						,[
+						[
+							0,
+							[
+								1,
+								0.2
+							]
+						]
+						]
+					]
+,					[
+						123,
+						cr.plugins_.Sprite.prototype.acts.SetVisible,
+						null,
+						4040237696698714,
+						false
+						,[
+						[
+							3,
+							0
+						]
+						]
+					]
+,					[
+						80,
+						cr.plugins_.Sprite.prototype.acts.SetVisible,
+						null,
+						5654657541208972,
+						false
+						,[
+						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						1000545678694552,
+						false
+						,[
+						[
+							0,
+							[
+								1,
+								4.8
+							]
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Play,
+						null,
+						7403323364864676,
+						false
+						,[
+						[
+							2,
+							["hahaha",false]
+						]
+,						[
+							3,
+							0
+						]
+,						[
+							0,
+							[
+								0,
+								0
+							]
+						]
+,						[
+							1,
+							[
+								2,
+								"ha"
+							]
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						8813352088604927,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								5
+							]
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Stop,
+						null,
+						8477778630972624,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"ha"
+							]
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Play,
+						null,
+						5491454307410715,
+						false
+						,[
+						[
+							2,
+							["ambient_tone5",false]
+						]
+,						[
+							3,
+							0
+						]
+,						[
+							0,
+							[
+								0,
+								0
+							]
+						]
+,						[
+							1,
+							[
+								2,
+								""
+							]
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						5971993641808827,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								3
+							]
+						]
+						]
+					]
+,					[
+						57,
+						cr.plugins_.Text.prototype.acts.SetVisible,
+						null,
+						237636033900429,
+						false
+						,[
+						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						57,
+						cr.plugins_.Text.prototype.acts.SetText,
+						null,
+						908368861810584,
+						false
+						,[
+						[
+							7,
+							[
+								2,
+								"To wszystko."
+							]
+						]
+						]
+					]
+,					[
+						57,
+						cr.behaviors.Fade.prototype.acts.RestartFade,
+						"Fade",
+						9494634698601939,
+						false
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						5309371258890076,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								3
+							]
+						]
+						]
+					]
+,					[
+						57,
+						cr.plugins_.Text.prototype.acts.SetVisible,
+						null,
+						6753111558861553,
+						false
+						,[
+						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						57,
+						cr.plugins_.Text.prototype.acts.SetText,
+						null,
+						3718327812507476,
+						false
+						,[
+						[
+							7,
+							[
+								2,
+								"On tu jest."
+							]
+						]
+						]
+					]
+,					[
+						57,
+						cr.behaviors.Fade.prototype.acts.RestartFade,
+						"Fade",
+						235685826256214,
+						false
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						4765432678466352,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								3
+							]
+						]
+						]
+					]
+,					[
+						57,
+						cr.plugins_.Text.prototype.acts.SetVisible,
+						null,
+						4815473273975534,
+						false
+						,[
+						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						57,
+						cr.plugins_.Text.prototype.acts.SetText,
+						null,
+						7856462576458601,
+						false
+						,[
+						[
+							7,
+							[
+								2,
+								"Nie ma ucieczki."
+							]
+						]
+						]
+					]
+,					[
+						57,
+						cr.behaviors.Fade.prototype.acts.RestartFade,
+						"Fade",
+						7930964306946791,
+						false
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						7048383643050515,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								3
+							]
+						]
+						]
+					]
+,					[
+						123,
+						cr.plugins_.Sprite.prototype.acts.SetVisible,
+						null,
+						1482787791920897,
+						false
+						,[
+						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Play,
+						null,
+						1113098791647376,
+						false
+						,[
+						[
+							2,
+							["screamer!",false]
+						]
+,						[
+							3,
+							0
+						]
+,						[
+							0,
+							[
+								0,
+								0
+							]
+						]
+,						[
+							1,
+							[
+								2,
+								"s"
+							]
+						]
+						]
+					]
+,					[
+						123,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						9519197455997013,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"END"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						6420123113283775,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								1
+							]
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Stop,
+						null,
+						717049864920069,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"s"
+							]
+						]
+						]
+					]
+,					[
+						123,
+						cr.plugins_.Sprite.prototype.acts.SetVisible,
+						null,
+						90563284658961,
+						false
+						,[
+						[
+							3,
+							0
+						]
+						]
+					]
+,					[
+						57,
+						cr.plugins_.Text.prototype.acts.SetVisible,
+						null,
+						8753663322590132,
+						false
+						,[
+						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						57,
+						cr.plugins_.Text.prototype.acts.SetText,
+						null,
+						4919897688571057,
+						false
+						,[
+						[
+							7,
+							[
+								2,
+								"Podziel się wrażeniami."
+							]
+						]
+						]
+					]
+,					[
+						57,
+						cr.behaviors.Fade.prototype.acts.RestartFade,
+						"Fade",
+						7373857955744189,
+						false
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.Wait,
+						null,
+						8649514068602268,
+						false
+						,[
+						[
+							0,
+							[
+								0,
+								3
+							]
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.StopAll,
+						null,
+						8762108952426949,
+						false
+					]
+,					[
+						5,
+						cr.plugins_.Browser.prototype.acts.GoToURLWindow,
+						null,
+						9858215961070477,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"https://www.facebook.com/groups/167223143698643/"
+							]
+						]
+,						[
+							1,
+							[
+								2,
+								"NewWindow"
+							]
+						]
+						]
+					]
+					]
+				]
+,				[
+					0,
+					null,
+					false,
+					null,
+					7750615551122435,
+					[
+					[
+						29,
+						cr.plugins_.Sprite.prototype.cnds.IsOnScreen,
+						null,
+						0,
+						false,
+						false,
+						false,
+						2009387144355458,
+						false
+					]
+					],
+					[
+					[
+						29,
+						cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
+						null,
+						8234769823415723,
+						false
+						,[
+						[
+							10,
+							0
+						]
+,						[
+							7,
+							[
+								0,
+								0
+							]
+						]
+						]
+					]
+,					[
+						4,
+						cr.plugins_.Audio.prototype.acts.Play,
+						null,
+						1269992100035786,
+						false
+						,[
+						[
+							2,
+							["door close fast",false]
+						]
+,						[
+							3,
+							0
+						]
+,						[
+							0,
+							[
+								0,
+								0
+							]
+						]
+,						[
+							1,
+							[
+								2,
+								""
+							]
+						]
+						]
+					]
+					]
+				]
+				]
+			]
+,			[
+				0,
+				null,
+				false,
+				null,
+				9845036404553712,
+				[
+				[
+					-1,
+					cr.system_object.prototype.cnds.CompareVar,
+					null,
+					0,
+					false,
+					false,
+					false,
+					3089584227994015,
+					false
+					,[
+					[
+						11,
+						"Triger"
+					]
+,					[
+						8,
+						0
+					]
+,					[
+						7,
+						[
+							0,
+							18
+						]
+					]
+					]
+				]
+				],
+				[
+				]
+				,[
+				[
+					0,
+					null,
+					false,
+					null,
+					7340515584457272,
+					[
+					[
+						13,
+						cr.plugins_.Sprite.prototype.cnds.OnCollision,
+						null,
+						0,
+						false,
+						false,
+						true,
+						3834060667428016,
+						false
+						,[
+						[
+							4,
+							37
+						]
+						]
+					]
+					],
+					[
+					[
+						37,
+						cr.plugins_.Sprite.prototype.acts.Destroy,
+						null,
+						5830636613291908,
+						false
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.SetVar,
+						null,
+						931652401763662,
+						false
+						,[
+						[
+							11,
+							"Triger"
+						]
+,						[
+							7,
+							[
+								0,
+								19
+							]
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.CreateObject,
+						null,
+						2043392640280326,
+						false
+						,[
+						[
+							4,
+							37
+						]
+,						[
+							5,
+							[
+								0,
+								7
+							]
+						]
+,						[
+							0,
+							[
+								0,
+								780
+							]
+						]
+,						[
+							0,
+							[
+								0,
+								1172
+							]
+						]
+						]
+					]
+					]
+				]
+				]
+			]
+,			[
+				0,
+				null,
+				false,
+				null,
 				4952732382285994,
 				[
 				[
@@ -51261,7 +53134,7 @@ false,false,1610212477730856,false
 							7,
 							[
 								0,
-								17
+								18
 							]
 						]
 						]
@@ -54507,6 +56380,39 @@ false,false,1610212477730856,false
 					]
 ,					[
 						13,
+						cr.behaviors.Platform.prototype.acts.SetEnabled,
+						"Platform",
+						6446408153868377,
+						false
+						,[
+						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.SetVar,
+						null,
+						2314185433734492,
+						false
+						,[
+						[
+							11,
+							"CUTSCENA"
+						]
+,						[
+							7,
+							[
+								0,
+								0
+							]
+						]
+						]
+					]
+,					[
+						13,
 						cr.plugins_.Sprite.prototype.acts.SetVisible,
 						null,
 						8435430111243345,
@@ -54759,39 +56665,6 @@ false,false,1610212477730856,false
 						[
 							3,
 							0
-						]
-						]
-					]
-,					[
-						13,
-						cr.behaviors.Platform.prototype.acts.SetEnabled,
-						"Platform",
-						6446408153868377,
-						false
-						,[
-						[
-							3,
-							1
-						]
-						]
-					]
-,					[
-						-1,
-						cr.system_object.prototype.acts.SetVar,
-						null,
-						2314185433734492,
-						false
-						,[
-						[
-							11,
-							"CUTSCENA"
-						]
-,						[
-							7,
-							[
-								0,
-								0
-							]
 						]
 						]
 					]
@@ -57447,7 +59320,7 @@ false,false,1610212477730856,false
 							7,
 							[
 								2,
-								"press F to go down"
+								"Wciśnij F, żeby zejść na dół"
 							]
 						]
 						]
@@ -59263,7 +61136,7 @@ false,false,1610212477730856,false
 							7,
 							[
 								2,
-								"press F to go up"
+								"Wciśnij F, żeby wejść na górę"
 							]
 						]
 						]
@@ -63246,6 +65119,32 @@ false,false,1610212477730856,false
 					]
 					]
 				]
+,				[
+					125,
+					cr.plugins_.Sprite.prototype.acts.SetOpacity,
+					null,
+					3103043803156277,
+					false
+					,[
+					[
+						0,
+						[
+							19,
+							cr.system_object.prototype.exps.random
+							,[
+[
+								0,
+								10
+							]
+,[
+								0,
+								100
+							]
+							]
+						]
+					]
+					]
+				]
 				]
 			]
 ,			[
@@ -65517,7 +67416,7 @@ false,false,1610212477730856,false
 						7,
 						[
 							2,
-							"Obraz z żydem liczącym monety... Chyba."
+							"Obraz przedstawiający... nie mam pojęcia co on przedstawia"
 						]
 					]
 					]
@@ -66798,7 +68697,11 @@ false,false,1610212477730856,false
 		["ambient_tone4.ogg", 51368],
 		["ambient_tone5.ogg", 50995],
 		["door_closed.ogg", 7411],
-		["screamer!.ogg", 17580]
+		["screamer!.ogg", 17580],
+		["ice cream.ogg", 748014],
+		["tv_noise.ogg", 40856],
+		["choke.ogg", 155713],
+		["hahaha.ogg", 58730]
 	],
 	"media/",
 	true,
@@ -66813,7 +68716,7 @@ false,false,1610212477730856,false
 	false,
 	0,
 	0,
-	399,
+	400,
 	false,
 	false,
 	1,
