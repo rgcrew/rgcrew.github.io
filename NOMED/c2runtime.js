@@ -39431,7 +39431,7 @@ cr.getProjectModel = function() { return [
 		[
 			[
 			"Default",
-			5,
+			1,
 			true,
 			1,
 			0,
@@ -39966,7 +39966,7 @@ cr.getProjectModel = function() { return [
 		false,
 		[],
 		1,
-		0,
+		1,
 		null,
 		[
 			[
@@ -40096,7 +40096,7 @@ cr.getProjectModel = function() { return [
 		false,
 		false,
 		6698704804019119,
-		[],
+		[["noise", "Noise"]],
 		null
 	]
 	],
@@ -45079,7 +45079,7 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[788.5794677734375, 1178.78759765625, 0, 27.62091064453125, 18.7293701171875, 0, 0, 1, 0.5094339847564697, 0.5161290168762207, 0, 0, []],
+				[788.5794677734375, 1178.78759765625, 0, 27.62091064453125, 18.7293701171875, 0, 0, 1, 0.5094339847564697, 0.5161290168762207, 0, 0, [[0.4, 1]]],
 				126,
 				399,
 				[
@@ -45418,7 +45418,7 @@ cr.getProjectModel = function() { return [
 			0,
 			[
 			[
-				[52, 872, 0, 23.58786010742188, 52.23025894165039, 0, 0, 1, 0.5, 0.09677419066429138, 0, 0, []],
+				[55.70782470703125, 875.6915893554688, 0, 23.58786010742188, 52.23025894165039, 0, 0, 1, 0.5, 0.09677419066429138, 0, 0, []],
 				13,
 				18,
 				[
@@ -47575,7 +47575,7 @@ cr.getProjectModel = function() { return [
 		],
 		[
 		],
-		[]
+		[["noise", "Noise", [0.06, 0]]]
 	]
 	],
 	[
@@ -51505,6 +51505,53 @@ false,false,1610212477730856,false
 					],
 					[
 					[
+						-1,
+						cr.system_object.prototype.acts.SetVar,
+						null,
+						4641966095796689,
+						false
+						,[
+						[
+							11,
+							"Triger"
+						]
+,						[
+							7,
+							[
+								0,
+								20
+							]
+						]
+						]
+					]
+,					[
+						126,
+						cr.behaviors.scrollto.prototype.acts.Shake,
+						"ScrollTo",
+						2987970975883036,
+						false
+						,[
+						[
+							0,
+							[
+								1,
+								0.5
+							]
+						]
+,						[
+							0,
+							[
+								0,
+								70
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
 						4,
 						cr.plugins_.Audio.prototype.acts.Play,
 						null,
@@ -51771,7 +51818,7 @@ false,false,1610212477730856,false
 							0,
 							[
 								0,
-								2
+								3
 							]
 						]
 						]
@@ -51808,10 +51855,10 @@ false,false,1610212477730856,false
 						]
 					]
 ,					[
-						111,
+						126,
 						cr.plugins_.Sprite.prototype.acts.SetAnim,
 						null,
-						7403303689188662,
+						7918128518867059,
 						false
 						,[
 						[
@@ -51844,10 +51891,10 @@ false,false,1610212477730856,false
 						]
 					]
 ,					[
-						111,
+						126,
 						cr.plugins_.Sprite.prototype.acts.SetAnim,
 						null,
-						4386862441661456,
+						7206728568174995,
 						false
 						,[
 						[
@@ -51880,10 +51927,10 @@ false,false,1610212477730856,false
 						]
 					]
 ,					[
-						111,
+						126,
 						cr.plugins_.Sprite.prototype.acts.SetAnim,
 						null,
-						6619590386655051,
+						2389545021259997,
 						false
 						,[
 						[
@@ -51916,10 +51963,10 @@ false,false,1610212477730856,false
 						]
 					]
 ,					[
-						111,
+						126,
 						cr.plugins_.Sprite.prototype.acts.SetAnim,
 						null,
-						6844081094779965,
+						4255320900256981,
 						false
 						,[
 						[
@@ -51952,10 +51999,10 @@ false,false,1610212477730856,false
 						]
 					]
 ,					[
-						111,
+						126,
 						cr.plugins_.Sprite.prototype.acts.SetAnim,
 						null,
-						9080984869146017,
+						3505284931927769,
 						false
 						,[
 						[
@@ -51988,10 +52035,10 @@ false,false,1610212477730856,false
 						]
 					]
 ,					[
-						111,
+						126,
 						cr.plugins_.Sprite.prototype.acts.SetAnim,
 						null,
-						2840788055778352,
+						1344710929538154,
 						false
 						,[
 						[
@@ -52024,10 +52071,10 @@ false,false,1610212477730856,false
 						]
 					]
 ,					[
-						111,
+						126,
 						cr.plugins_.Sprite.prototype.acts.SetAnim,
 						null,
-						7720445743284294,
+						2037084263696592,
 						false
 						,[
 						[
@@ -52035,6 +52082,26 @@ false,false,1610212477730856,false
 							[
 								2,
 								"ice7"
+							]
+						]
+,						[
+							3,
+							1
+						]
+						]
+					]
+,					[
+						126,
+						cr.plugins_.Sprite.prototype.acts.SetAnim,
+						null,
+						6532050299366301,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"black"
 							]
 						]
 ,						[
@@ -52060,26 +52127,6 @@ false,false,1610212477730856,false
 						]
 					]
 ,					[
-						111,
-						cr.plugins_.Sprite.prototype.acts.SetAnim,
-						null,
-						9177608919998103,
-						false
-						,[
-						[
-							1,
-							[
-								2,
-								"ice3"
-							]
-						]
-,						[
-							3,
-							1
-						]
-						]
-					]
-,					[
 						-1,
 						cr.system_object.prototype.acts.Wait,
 						null,
@@ -52092,26 +52139,6 @@ false,false,1610212477730856,false
 								0,
 								6
 							]
-						]
-						]
-					]
-,					[
-						111,
-						cr.plugins_.Sprite.prototype.acts.SetAnim,
-						null,
-						3925202095292424,
-						false
-						,[
-						[
-							1,
-							[
-								2,
-								"ice4"
-							]
-						]
-,						[
-							3,
-							1
 						]
 						]
 					]
@@ -52132,26 +52159,6 @@ false,false,1610212477730856,false
 						]
 					]
 ,					[
-						111,
-						cr.plugins_.Sprite.prototype.acts.SetAnim,
-						null,
-						9377239986394997,
-						false
-						,[
-						[
-							1,
-							[
-								2,
-								"ice5"
-							]
-						]
-,						[
-							3,
-							1
-						]
-						]
-					]
-,					[
 						-1,
 						cr.system_object.prototype.acts.Wait,
 						null,
@@ -52168,26 +52175,6 @@ false,false,1610212477730856,false
 						]
 					]
 ,					[
-						111,
-						cr.plugins_.Sprite.prototype.acts.SetAnim,
-						null,
-						7337229581354135,
-						false
-						,[
-						[
-							1,
-							[
-								2,
-								"ice6"
-							]
-						]
-,						[
-							3,
-							1
-						]
-						]
-					]
-,					[
 						-1,
 						cr.system_object.prototype.acts.Wait,
 						null,
@@ -52200,26 +52187,6 @@ false,false,1610212477730856,false
 								0,
 								3
 							]
-						]
-						]
-					]
-,					[
-						126,
-						cr.plugins_.Sprite.prototype.acts.SetAnim,
-						null,
-						6532050299366301,
-						false
-						,[
-						[
-							1,
-							[
-								2,
-								"black"
-							]
-						]
-,						[
-							3,
-							1
 						]
 						]
 					]
@@ -52308,6 +52275,22 @@ false,false,1610212477730856,false
 							[
 								0,
 								4
+							]
+						]
+						]
+					]
+,					[
+						-1,
+						cr.system_object.prototype.acts.SetLayoutScale,
+						null,
+						944371545346113,
+						false
+						,[
+						[
+							0,
+							[
+								1,
+								1
 							]
 						]
 						]
@@ -52819,6 +52802,26 @@ false,false,1610212477730856,false
 					]
 ,					[
 						5,
+						cr.plugins_.Browser.prototype.acts.GoToURL,
+						null,
+						4038006452039609,
+						false
+						,[
+						[
+							1,
+							[
+								2,
+								"https://www.facebook.com/groups/167223143698643/"
+							]
+						]
+,						[
+							3,
+							0
+						]
+						]
+					]
+,					[
+						5,
 						cr.plugins_.Browser.prototype.acts.GoToURLWindow,
 						null,
 						9858215961070477,
@@ -52841,74 +52844,76 @@ false,false,1610212477730856,false
 						]
 					]
 					]
-				]
-,				[
-					0,
-					null,
-					false,
-					null,
-					7750615551122435,
+					,[
 					[
-					[
-						29,
-						cr.plugins_.Sprite.prototype.cnds.IsOnScreen,
-						null,
 						0,
-						false,
-						false,
-						false,
-						2009387144355458,
-						false
-					]
-					],
-					[
-					[
-						29,
-						cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
 						null,
-						8234769823415723,
-						false
-						,[
-						[
-							10,
-							0
-						]
-,						[
-							7,
-							[
-								0,
-								0
-							]
-						]
-						]
-					]
-,					[
-						4,
-						cr.plugins_.Audio.prototype.acts.Play,
+						false,
 						null,
-						1269992100035786,
-						false
-						,[
+						7750615551122435,
 						[
-							2,
-							["door close fast",false]
-						]
-,						[
-							3,
-							0
-						]
-,						[
+						[
+							29,
+							cr.plugins_.Sprite.prototype.cnds.IsOnScreen,
+							null,
 							0,
+							false,
+							false,
+							false,
+							2009387144355458,
+							false
+						]
+						],
+						[
+						[
+							29,
+							cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
+							null,
+							8234769823415723,
+							false
+							,[
 							[
-								0,
+								10,
 								0
+							]
+,							[
+								7,
+								[
+									0,
+									0
+								]
+							]
 							]
 						]
 ,						[
-							1,
+							4,
+							cr.plugins_.Audio.prototype.acts.Play,
+							null,
+							1269992100035786,
+							false
+							,[
 							[
 								2,
-								""
+								["door close fast",false]
+							]
+,							[
+								3,
+								0
+							]
+,							[
+								0,
+								[
+									0,
+									0
+								]
+							]
+,							[
+								1,
+								[
+									2,
+									""
+								]
+							]
 							]
 						]
 						]
