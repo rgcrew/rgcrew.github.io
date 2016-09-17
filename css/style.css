@@ -1,13 +1,5 @@
-/* to be removed after WIP stage */
-#WIPDAMNIT {
-	background-color: white;
-	padding: 2em;
-	margin: 4%;
-}
-
-
 /* nomed */
-#nomed-logo-navbar {
+.logo-navbar {
 	max-height: 16px;
 }
 
@@ -16,11 +8,8 @@
 	text-align: center;
 }
 
-
-
-
 body {
-	background-image: url("../bg.png") !important;
+	font-family: 'Lato', sans-serif;
 }
 
 #lol-nawigacja {
@@ -28,36 +17,35 @@ body {
 	color: white;
 }
 
-.navbar-brand a {
+h1 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+#up {
+	background-image: url("../img/old.jpg");
+	background-size: cover;
 	color: white;
 }
 
-.white-text-link-helper {
-	color: white;
+.section {
+	padding: 6em;
 }
 
-.bannerphoto {
-	position: relative;
-}
-
-#adolfhello h2 {
-	position: absolute; 
-	top: 200px; 
-	left: 0; 
-	width: 100%; 
-}
-
-#bigicon {
-	width: 20vh;
-	height: 20vh;
-}
-
-#top {
-	display: flex;
-	justify-content: center;
-}
-
-.kappacenter {
+.middle-of-middle {
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.middle-of-middle-symbol {
+	max-height: 40vh;
 }

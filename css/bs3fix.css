@@ -1,0 +1,27 @@
+/*        bs3fix.css
+
+A simple stylesheet to make life with Bootstrap simplier
+
+made by matikorzenio (github.com/matikorzenio)
+released under WTFPL
+
+*/
+
+.card {
+	background-color: white;
+	padding: 2em;
+	margin: 4%;
+}
+
+.eleft /* explicit left */ {
+	float: left;
+}
+
+.eright /* explicit right */ {
+	float: right;
+}
+
+.ereset /* explicit setting reset */ {
+	clear: both;
+}
+
