@@ -29,14 +29,14 @@ h3 {
 	font-family: 'Quicksand', sans-serif;
 }
 
+.section {
+	padding: 5em;
+}
+
 #up {
 	background-image: url("../img/old.jpg");
 	background-size: cover;
 	color: white;
-}
-
-.section {
-	padding: 6em;
 }
 
 .middle-of-middle {
@@ -48,4 +48,18 @@ h3 {
 
 .middle-of-middle-symbol {
 	max-height: 40vh;
+}
+
+.slide-row {
+	padding: 0.5em;
+}
+
+.title {
+	letter-spacing: 3px;
+}
+
+#about {
+	background-image: url("../img/piorek.jpg");
+	background-size: cover;
+	color: white;
 }
